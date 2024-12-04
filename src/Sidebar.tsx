@@ -2,8 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import { UserContext } from './context/user';
-import { RecentFilter, TaskGroup, TodayFilter } from './model';
-import { Inbox } from './model';
+import { RecentFilter, TaskGroup, TodayFilter, Inbox } from './Model';
 import { ProjectsContext } from './context/projects';
 import { useTaskCounts } from './hooks/useTaskCounts';
 import { getTaskGroupTitle } from './utils';

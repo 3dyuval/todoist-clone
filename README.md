@@ -39,8 +39,8 @@ https://altech-todoist.web.app/
 Since Firebase credentials are already included in the repository, the minimal setup procedure to run it locally is as follows.
 
 ```
-$ yarn
-$ yarn start
+$ npmm install
+$ npmm run start
 ```
 
 To replace firebase backend as well, create an account and change `src/firebaase.ts`.

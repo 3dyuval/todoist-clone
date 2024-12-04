@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 
-import type { TaskGroup } from './model';
+import type { TaskGroup } from './Model';
 import { newTask } from './data/task';
 import { useTasks } from './hooks/useTasks';
 import { TaskItem } from './TaskItem';

@@ -4,13 +4,12 @@ import { getAuth } from 'firebase/auth';
 // This account is under free plan.
 // I recommend you to create your own account for learning.
 export const firebaseApp = initializeApp({
-  apiKey: 'AIzaSyCnKWVx4RhE0eC9aIIKZIk0AAe63tLngVI',
-  authDomain: 'altech-todoist.firebaseapp.com',
-  projectId: 'altech-todoist',
-  storageBucket: 'altech-todoist.appspot.com',
-  messagingSenderId: '1020253811345',
-  appId: '1:1020253811345:web:537661c6730f7d331dc530',
-  measurementId: 'G-JPPCQ5QWM5',
+  apiKey: "AIzaSyAm20yAqbI7sLcYHNKAJ_QbGTHFteunLKw",
+  authDomain: "yuval-b5bd9.firebaseapp.com",
+  projectId: "yuval-b5bd9",
+  storageBucket: "yuval-b5bd9.firebasestorage.app",
+  messagingSenderId: "662690166469",
+  appId: "1:662690166469:web:35b99682f04e3af90962ac"
 });
 
 export const firebaseAuth = getAuth(firebaseApp);
